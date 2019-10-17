@@ -1,0 +1,17 @@
+{
+  "name": "henri-potier-proxy",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Henri Potier Proxy for API",
+  "main": "index.js",
+  "repository": "git@github.com:okamiconcept/henri-potier-proxy.git",
+  "author": "Maxime Gravouil",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0"
+  }
+}
